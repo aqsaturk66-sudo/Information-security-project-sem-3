@@ -1,0 +1,6 @@
+{
+  "name": "PhishShield — Intelligent Phishing Detection & Cyber Threat Analysis System",
+  "description": "Enterprise-grade cybersecurity web platform for deterministic URL phishing analysis, malicious email threat detection, and security awareness.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
