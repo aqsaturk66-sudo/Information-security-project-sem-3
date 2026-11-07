@@ -3,11 +3,11 @@
  * Static rule-based deterministic URL and Email scanners with persistent user record isolation.
  */
 
-import { Router, Response } from 'express';
+import { Router, type Response } from 'express';
 import { analyzeUrl } from '../../src/detection/urlAnalyzer.ts';
 import { analyzeEmail } from '../../src/detection/emailAnalyzer.ts';
 import { db } from '../db.ts';
-import { AuthRequest } from '../auth.ts';
+import type { AuthRequest } from '../auth.ts';
 import jwt from 'jsonwebtoken';
 
 const JWT_SECRET = process.env.JWT_SECRET || 'phishshield_super_secure_jwt_secret_key_2026';

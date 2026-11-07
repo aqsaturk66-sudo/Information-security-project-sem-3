@@ -3,7 +3,7 @@
  * Privacy-first: analyzes text heuristics without transmitting email content to third parties.
  */
 
-import { EmailAnalysisResult, Finding, RiskLevel } from '../types/index.ts';
+import type { EmailAnalysisResult, Finding, RiskLevel } from '../types/index.ts';
 
 interface PatternRule {
   id: string;

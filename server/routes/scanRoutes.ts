@@ -3,9 +3,9 @@
  * Strict user ownership verification on every database operation.
  */
 
-import { Router, Response } from 'express';
+import { Router, type Response } from 'express';
 import { db } from '../db.ts';
-import { authenticateToken, AuthRequest, hashPassword, comparePassword, validatePasswordStrength } from '../auth.ts';
+import { authenticateToken, type AuthRequest, hashPassword, comparePassword, validatePasswordStrength } from '../auth.ts';
 
 export const scanRouter = Router();
 

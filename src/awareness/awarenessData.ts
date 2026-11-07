@@ -4,7 +4,7 @@
  * Explicitly free of any quizzes or test questions.
  */
 
-import { AwarenessArticle } from '../types/index.ts';
+import type { AwarenessArticle } from '../types/index.ts';
 
 export const AWARENESS_ARTICLES: AwarenessArticle[] = [
   {

@@ -3,7 +3,7 @@
  * Strictly static analysis: no external web requests, no SSRF, safe parsing.
  */
 
-import { Finding, RiskLevel, UrlAnalysisResult } from '../types/index.ts';
+import type { Finding, RiskLevel, UrlAnalysisResult } from '../types/index.ts';
 
 // Top abuse/free TLDs frequently used in mass phishing campaigns
 const HIGH_ABUSE_TLDS = new Set([

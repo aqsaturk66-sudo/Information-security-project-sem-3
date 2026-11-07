@@ -3,7 +3,7 @@
  * Educational, defensive reference explaining detected threats in plain language.
  */
 
-import { ThreatConcept } from '../types/index.ts';
+import type { ThreatConcept } from '../types/index.ts';
 
 export const THREAT_CONCEPTS: ThreatConcept[] = [
   {

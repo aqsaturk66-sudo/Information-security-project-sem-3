@@ -2,7 +2,7 @@
  * PhishShield Authentication REST Routes
  */
 
-import { Router, Request, Response } from 'express';
+import { Router, type Request, type Response } from 'express';
 import { db } from '../db.ts';
 import {
   hashPassword,
@@ -11,7 +11,7 @@ import {
   generateAuthToken,
   generateCryptoToken,
   authenticateToken,
-  AuthRequest
+  type AuthRequest
 } from '../auth.ts';
 
 export const authRouter = Router();
